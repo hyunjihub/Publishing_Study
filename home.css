@@ -1,0 +1,148 @@
+.container {
+  display: flex;
+  margin: 80px auto;
+  width: 865px;
+  gap: 40px;
+}
+
+.header {
+  background-color: #F5F7FB;
+  border-radius: 80px;
+  width: 297px;
+  height: 342px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 80px;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.title {
+  text-align: right;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.title > strong {
+  font-weight: 700;
+}
+
+.filter {
+  background-color: #fff;
+  width: 148px;
+  height: 54px;
+  border-radius: 8px;
+  font-size: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+}
+
+.remove-icon {
+  width: 12px;
+  height: 12px;
+}
+
+.survey {
+  flex-grow: 1;
+}
+
+.add {
+  display: block;
+  text-decoration: none;
+  border: 2px dashed #DEE3EC;
+  border-radius: 8px;
+  width: 528px;
+  height: 78px;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 24px 48px;
+}
+
+.add:hover {
+  background-color: #F5F7FB;
+}
+
+.colors {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.color {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #BFC8DA;
+  cursor: pointer;
+  padding: 16px 48px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.color:hover {
+  background-color: #F4F7Fb;
+}
+
+.color-number {
+  color: #BFC8DA;
+  margin-right: 40px;
+}
+
+.color-mbti {
+  background-color: #F0F2F5;
+  border-radius: 8px;
+  width: 76px;
+  height: 46px;
+  font-weight: 600;
+  padding: 8px;
+  margin-right: 16px;
+}
+
+.dashed {
+  flex-grow: 1;
+  width: 100%;
+  height: 0px;
+  border-top: 2px dashed #BFC8DA;
+  position: relative;
+  margin-right: 16px;
+}
+
+.arrow-icon {
+  position: absolute;
+  top: -7px;
+  right: -6px;
+  width: 8px;
+  height: 13px;
+}
+
+.color-square {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  border: 3px solid #E8E8E8;
+  margin-right: 16px;
+}
+
+.color-code {
+  color: #BFC8DA;
+}
+
+@media screen and (max-width: 944px) {
+  
+}

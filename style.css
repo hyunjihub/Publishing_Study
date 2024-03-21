@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  font-family: Pretendard;
+  font-size: 24px;
+  color: #464e5e;
+}
+
+@media screen and (max-width: 944px) {
+  html {
+    font-size: 16px;
+  }
+}
