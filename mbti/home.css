@@ -6,6 +6,10 @@
   gap: 40px;
 }
 
+.header {
+  position: relative;
+}
+
 .header-title {
   position: sticky;
   top: 80px;
@@ -57,7 +61,6 @@
   border-radius: 8px;
   width: 528px;
   height: 78px;
-  font-size: 24px;
   font-weight: 500;
   padding: 24px 48px;
   color: #464E5E;
@@ -117,7 +120,7 @@
 
 .arrow-icon {
   position: absolute;
-  top: -6px;
+  top: -5px;
   right: -6px;
   width: 8px;
   height: 13px;
@@ -138,4 +141,40 @@
 }
 
 @media screen and (max-width: 944px) {
+  .container {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 24px 16px;
+  }
+
+  .header {
+    position: sticky;
+    top: 24px;
+    z-index: 1;
+  }
+  
+  .header-title {
+    position: static;
+    text-align: center;
+  }
+
+  .survey {
+    margin-top: 16px;
+  }
+
+  .add {
+    width: 100%;
+    padding: 20px 24px;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+  }
+
+  .color-mbti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
